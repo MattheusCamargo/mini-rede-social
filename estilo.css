@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: burlywood;
+}
+div{
+            
+    width: 70%;
+    height: 400px;
+    background: rgb(77, 76, 76);
+    margin-left: 14%;
+    margin-top: 6%;
+    border-radius: 20px;
+    box-shadow: 5px 3px 7px 1px rgb(26, 24, 24);
+            
+}
+
+a{
+    color: red;
+}
+
+img{
+    position: absolute; 
+	right: 60%; 
+	top: 30%;
+}
+
+form{
+    position: absolute; 
+	left: 65%; 
+	top: 43%;
+    text-align: center;
+    background-color: #88C9F9;
+    border-radius: 10px;
+
+}
+                
+h1{
+    text-align: center;
+    text-decoration: solid;
+    color: darkgreen;
+}
+
+footer{
+    text-align: center;
+}
