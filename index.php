@@ -7,6 +7,10 @@
     <title>Rede Social</title>
 </head>
 <body>
-    
+    <div>
+        <?php
+           
+        ?>
+    </div>
 </body>
 </html>
