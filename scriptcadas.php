@@ -4,7 +4,7 @@
     $sexo= NULL;
     $pass= $_POST['senha'];
 
-    $query= "INSERT INTO usuarios VALUES ('$nome', 'NULL', '$email', '$pass')";
+    $query= "INSERT INTO usuarios VALUES ('DEFAULT', '$nome', 'NULL', '$email', '$pass')";
     $conexao= $mysqli = new mysqli('127.0.0.1:3306', 'root', '', 'sitepessoal');
     
     mysqli_query($conexao, $query);
