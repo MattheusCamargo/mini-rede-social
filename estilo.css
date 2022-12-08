@@ -22,7 +22,7 @@ div{
     width: 70%;
     height: 400px;
     background: #3D9DD9;
-    position: relative;
+    position: absolute;
     left: 14%;
     border-radius: 20px;
     box-shadow: 5px 3px 7px 1px rgb(26, 24, 24);
@@ -30,11 +30,10 @@ div{
 }
 .log {
     position: absolute;
-    top: 12%;
-    left: 60%;
+    left: 75%;
     text-decoration: solid;
-    width: 20%;
-    height: 70%;
+    width: 25%;
+    height: 100%;
     background: #ffffff;
     border-radius: 20px 5px 20px 5px;
     box-shadow: 0px 0px 5px 0px rgb(26, 24, 24);
@@ -50,8 +49,9 @@ img{
 }
 
 form{
-    position: relative; 
-	left: 0.5%; 
+    position: absolute; 
+	left: 15%;
+    top: 15%;
     text-align: center;
 
 
