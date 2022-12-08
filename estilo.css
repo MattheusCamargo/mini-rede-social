@@ -7,7 +7,8 @@ body{
 }
 
 h1{
-    margin-top: 3%;
+    position: relative;
+    top: 20%;
     font-family: 'Alfa Slab One', sans-serif;
     font-size: 40px;
     text-align: center;
@@ -28,11 +29,11 @@ div{
             
 }
 .log {
-    position: relative;
-    top: 10%;
-    left: 50%;
+    position: absolute;
+    top: 12%;
+    left: 60%;
     text-decoration: solid;
-    width: 30%;
+    width: 20%;
     height: 70%;
     background: #ffffff;
     border-radius: 20px 5px 20px 5px;
@@ -43,15 +44,14 @@ a{
 }
 
 img{
-    position: relative; 
+    position: absolute; 
 	left: 10%; 
-	top: 20%;
+	top: 12%;
 }
 
 form{
     position: relative; 
 	left: 0.5%; 
-	top: 10%;
     text-align: center;
 
 
@@ -61,12 +61,13 @@ footer{
     text-align: center;
 }
 
-/*.divcadas{
-    width: 35%;
-    height: 500px;
+.divcadas{
+    width: 50%;
+    height: 50%;
     background: #3D9DD9;
-    margin-left: 30%;
-    margin-top: 6%;
+    position: absolute;
+    top: 15%;
+    left: 23%;
     border-radius: 20px 5px 20px 5px;
     box-shadow: 5px 3px 7px 1px rgb(26, 24, 24);
 }
@@ -74,22 +75,22 @@ footer{
 .formcadas{
     text-decoration: solid;
     width: 30%;
-    height: 200px;
+    height: 40%;
     background: #ffffff;
     position: absolute;
     left: 32.5%;
-    top: 40%;
+    top: 33%;
     border-radius: 20px 5px 20px 5px;
     box-shadow: 0px 0px 5px 0px rgb(26, 24, 24);
 }
 
 .imgcadas{
-    position: relative;
-    left: 32%;
-    top: 2%;
+    position: absolute;
+    left: 36%;
+    top: 0.5%;
 }
 
-main {
+.principal {
     width: 85%;
     height: 500px;
     background-color: #ffffff;
@@ -99,4 +100,4 @@ main {
     border-radius: 20px 5px 20px 5px;
 
         
-}*/
+}
